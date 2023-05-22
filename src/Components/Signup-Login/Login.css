@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #e0f8eb; */
+}
+.L-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f8eb;
+}
+
+.L-formDiv{
+    padding: 1.3rem 0.8rem;
+    background-color: white;
+    width: 28vw;
+    border-radius: 0.5rem;
+
+}
+
+.L-formDiv *{
+    margin: 0.8rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.L-formDiv h1{
+    color: rgb(71 85 164);
+}
+.L-formDiv p{
+    margin-top: 2rem;
+    color: #8e8c8c;
+    font-size: 0.9rem;
+}
+
+input{
+    padding: 0.7rem;
+    width: 20vw;
+    border-radius: 0.3rem;
+}
+
+#L-userid{
+    margin-top: 3rem;
+    text-align: start;
+    border: 2px solid #e5e1e1;
+}
+
+#L-password{
+    text-align: start;
+    margin-bottom: 2.7rem;
+    border: 2px solid #e5e1e1;
+
+}
+
+#L-signin{
+    padding: 0.7rem;
+    width: 22vw;
+    border: none;
+    border-radius: 0.3rem;
+    background-color:rgb(71 85 164);
+    color: white;
+    cursor: pointer;
+    /* border: none; */
+}
+
+.L-signup{
+    text-decoration: none;
+    color: rgb(71 85 164);
+    font-weight: bold;
+}
+
+#L-afterForm{
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+
