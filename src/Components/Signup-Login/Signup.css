@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.S-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f8eb;
+}
+
+.S-formDiv{
+    padding: 1.8rem 0.8rem;
+    background-color: white;
+    width: 28vw;
+    border-radius: 0.5rem;
+
+}
+
+.S-formDiv *{
+    margin: 0.8rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.S-formDiv h1{
+    color: rgb(71 85 164);
+}
+.S-formDiv p{
+    margin-top: 2rem;
+    color: #818181;
+    font-size: 0.9rem;
+}
+
+input{
+    padding: 0.7rem;
+    width: 20vw;
+    border-radius: 0.3rem;
+}
+#S-username{
+    margin-top: 3rem;
+    text-align: start;
+    border: 2px solid #e5e1e1;
+}
+
+#S-userid{
+    text-align: start;
+    border: 2px solid #e5e1e1;
+}
+
+#S-password, #S-cpassword{
+    text-align: start;
+    /* margin-bottom: 2.7rem; */
+    border: 2px solid #e5e1e1;
+
+}
+
+#S-signin{
+    padding: 0.7rem;
+    width: 22vw;
+    border: none;
+    border-radius: 0.3rem;
+    background-color:rgb(71 85 164);
+    color: white;
+    cursor: pointer;
+    /* border: none; */
+}
+
+.S-signup{
+    text-decoration: none;
+    color: rgb(71 85 164);
+    font-weight: bold;
+}
+
+#S-afterForm{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+input, select, textarea{
+    color: #030202;
+    font-weight: 500;
+}
