@@ -1,0 +1,63 @@
+.main_header{
+    margin-left: 20%;
+    border: 1px solid white;
+    height: -60px;
+    width: auto;
+    height: 0px;
+    margin-bottom: auto;
+    
+}
+.header_row{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 50px;
+}
+.user_id_text{
+    margin-left: 45px;
+    margin-right: 5px;
+    font-size: 1.4rem;
+    margin-top: -10px;
+    width: 100px;
+    font-family: "Candara";
+    color: gray;
+}
+.user_id{
+    margin-right: 59%;
+    font-size: 1.4rem;
+    margin-top: -8px;
+    font-family: "Calibri";
+    color: gray;
+
+}
+.user_icon{
+    font-size: 1.7rem;
+    margin-left: -65px;
+    margin-right: 8px;
+    margin-top: -7px;
+    color: gray;
+    }
+.user_name{
+    font-size: 1.7rem;
+    margin-right: 7px;
+    margin-top: -10px;
+    font-family: "Candara";
+    color: gray;
+    text-transform: capitalize;
+}
+.drop_down{
+    margin-top: -2px;
+    font-size: 20px;
+}
+.drop_down:hover{
+    color: rgb(255, 106, 0);
+    cursor: pointer;
+}
+.drop_down:active{
+    color: rgb(0, 17, 255);
+}
+.line{
+    border: 2px solid #d4ece8;
+    background-color: #d4ece8;
+}
+
