@@ -1,0 +1,290 @@
+.header-main{
+    width: 40%;
+    margin-left: 25%;
+}
+.main_section{
+    margin-top: -50px;
+   
+}
+hr{
+    margin-top: 6.2%;
+}
+.heading{margin-top:-8px;
+    margin-left:80px;
+    color:  grey;
+}
+
+.navbar{
+    border-radius: 4em / 3em;
+    padding: 20px;
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+
+
+}
+
+.basic{
+    font-weight: bolder;
+    padding-top: 1%;
+}
+.basic1{
+    text-decoration: none;
+}
+
+.property{
+    font-weight: bolder;
+}
+.property1{
+    text-decoration: none;
+}
+.general{
+    font-weight: bolder;
+}
+.general1{
+    text-decoration: none;
+}
+.loc{
+    font-weight: bolder;
+    
+}
+.loc1{
+    text-decoration: none;
+}
+.oa{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.box1{
+    display: flex;
+    margin-left: 3%;
+    padding-top: 4%;
+    font-weight: 200;
+    font-weight: 400;
+}
+
+.proType{
+    color: rgb(54, 94, 43);
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.select{
+    width: 510px;
+    height: 50px;
+    border: 1px solid  rgb(130, 158, 122);
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgb(89, 128, 78);
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.negotableSelect{
+    margin-left: 2%;
+    color: rgb(54, 94, 43);
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.select1{
+    width: 510px;
+    height: 50px;
+    border: 1px solid  rgb(130, 158, 122);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: large;
+    font-size: 16px;
+    color: grey;
+}
+
+.box2{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+
+.select3{
+    width: 485px;
+    height: 26px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color:  grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.select4{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.ownershipSelect{
+    margin-left: 2%;
+    color: rgb(54, 94, 43);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.priceSelect{
+    color: rgb(54, 94, 43);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.box3{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.select5{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color:  grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.select6{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color:  grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.propertyageSelect{
+    color: rgb(54, 94, 43);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.propertyapprovedSelect{
+    font-weight: bolder;
+    margin-left: 2%;
+    color: rgb(54, 94, 43);
+}
+
+.box4{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.select7{
+    width: 485px;
+    height: 26px;
+    border-radius: 10px;
+    color: grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.select8{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.desciprtion{
+    font-weight: bolder;
+    color: rgb(54, 94, 43);
+}
+
+.BankLoanSelect{
+    font-weight: bold;
+    margin-left: 2%;
+    font-weight: bolder;
+    color: rgb(54, 94, 43);
+}
+
+.cancel{
+    border-radius: 4em / 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    width: 14%;
+    height: 60px;
+    background-color: rgb(90, 188, 240);
+    margin-left: 30%;
+    margin-top: 4%;
+    font-weight: 530;
+    color: white;
+    font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border: 0px;
+}
+.cancel:hover{
+    background-color: rgb(8, 81, 126);
+    cursor: pointer;
+}
+.cancel:active{
+    color: red;
+}
+
+.save2{
+    border-radius: 4em / 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    width: 16%;
+    height: 60px;
+    background-color: white;
+    background-color: rgb(71, 82, 163);
+    margin-left: 5%;
+    margin-top: 4%;
+    font-weight: 530;
+    color: white;
+    font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border: 0px;
+}
+
+.basicform{
+    margin-left: 5%;
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.ppd-Package{
+    margin-left: 5%;
+}
+
+.main_section .nav_section .navbar .nav_one{
+    background-color: rgb(86, 191, 247);
+    height: 60px;
+    width: 200px;
+    margin-top: -20px;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    text-align: center;
+}
+
+.main_section .nav_section .navbar .nav_one .basic{
+    text-align: center;
+    margin-top: 17px;
+    color: white;
+}
