@@ -1,0 +1,350 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+.prime{
+    height: auto;
+    width: auto;
+    /* background-color: rgb(57, 111, 157); */
+}
+
+.main_section{
+    height:740px;
+    width: 76%;
+    /* border: 1px solid black; */
+    margin-top: -40%;
+    margin-left: 330px;
+}
+.main_section .heading_section{
+        color: grey;
+}
+.main_section .nav_section .navbar{
+    margin-left: 60px;
+    background-color: rgb(250, 251, 251);
+    width:80%;
+    margin-top: 10px;
+    height: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.main_section .nav_section .navbar .nav_two{
+    background-color: rgb(86, 191, 247);
+    height: 60px;
+    width: 200px;
+    margin-top: -20px;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.main_section .nav_section .navbar .nav_two .property{
+    text-align: center;
+    margin-top: 17px;
+    color: white;
+}
+.oa{
+    background-color: white;
+    color: black;
+}
+.form_section{
+    margin-left: 100px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    height: 940px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.form_row{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form_row_one{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 3%;
+   
+}
+.form_row_one .breath{
+    margin-left: 4%;
+}
+.form_row_two{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.form_row_two .area-unit{
+    margin-left: 4%;
+}
+.areaunit{
+    width: 335px;
+    height: 40px;
+
+}
+.form_row_three{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.bhk{
+    width: 335px;
+    height: 40px;
+}
+.form_row_three .nooffloor{
+    margin-left: 80px;
+
+}
+.floor{
+    width: 335px;
+    height: 40px;
+}
+.form_row_four{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.attach{
+    width: 335px;
+    height: 40px;
+}
+.western{
+    margin-left: 80px;
+}
+.toilet{
+    width: 335px;
+    height: 40px;
+}
+.form_row_five{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.furnish{
+    width: 510px;
+    height: 50px;
+}
+.carparking{
+    margin-left: 80px;
+}
+.car{
+    width: 510px;
+    height: 50px;
+}
+.form_row_six{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.electricity{
+    margin-left: 80px;
+}
+.form_row_seven{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.facing{
+    width: 335px;
+    height: 40px;
+}
+
+.len{
+    font-weight: bolder;
+    color: grey;
+    font-size: medium;
+}
+
+.length{
+    width: 485px;
+    height: 26px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.breath{
+    font-weight: bolder;
+    font-size: medium;
+    color: grey;
+}
+
+.bre{
+    width: 485px;
+    height: 26px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.Total-area{
+    font-weight: bold;
+    color: gray;
+}
+
+.area1{
+    width: 485px;
+    height: 26px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.area-unit{
+    font-weight: bold;
+    color: gray;
+}
+
+.areaunit{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color:  grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.noofBHK{
+    font-weight: bold;
+    color: gray;
+    margin-right: -3%;
+}
+
+.bhk{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: gray;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.nooffloor{
+    font-weight: bold;
+    color: gray;
+}
+
+.floor{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.attached{
+    font-weight: bold;
+    color: gray;
+}
+
+.attach{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.western{
+    font-weight: bold;
+    color: gray;
+    margin-left: 4%;
+}
+
+.toilet{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.furnished{
+    font-weight: bold;
+    color: gray;
+}
+
+.furnish{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.carparking{
+    font-weight: bold;
+    color: gray;
+    margin-left: 4%;
+}
+
+.car{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;  
+}
+
+.liftStatus{
+    font-weight: bold;
+    color: gray;
+}
+
+.lift{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;  
+}
+
+.electricity{
+    font-weight: bold;
+    color: gray;
+    margin-left: 4%;
+}
+
+.ele{
+    width: 485px;
+    height: 26px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+    border: 1px solid  rgb(130, 158, 122);
+}
+
+.face{
+    font-weight: bold;
+    color: gray;
+}
+
+.facing{
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;  
+}
+
